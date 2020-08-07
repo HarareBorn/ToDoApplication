@@ -1,0 +1,18 @@
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+  
+.text-div {
+    width:250px;
+    display:inline-flex;
+}
+
+.glyphicon-div {
+    display:inline-flex;
+}
+
+.glyphicon-div:hover {
+    cursor: pointer;
+}
