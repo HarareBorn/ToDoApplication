@@ -69,6 +69,9 @@ var deleteListItem = (obj) => {
     parentObj.remove();
 }
 
+/**
+ * This function is called once the page is loaded
+ */
 window.onload =  () => {
     document.getElementById("add-btn").addEventListener("click", addBtn);
 }
