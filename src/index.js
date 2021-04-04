@@ -11,6 +11,9 @@ var addBtn = () => {
         toDo.value = "";
         return;
     }
+
+    var childElem = document.getElementById("to-do-list").firstElementChild;
+    if (childElem === null) counter = 0;
        
     addListItem(toDo.value);
     toDo.value = "";
